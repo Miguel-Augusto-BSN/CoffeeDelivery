@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Encontre um café perfeito para qualquer hora do dia!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Coffee Delivery</title>
+    <link href="CSS/index.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Imagens/logoicon.png">
+</head>
+<body>
+    <!--cabeçalho-->
+    <div id="menu">
+    <img src="Imagens/logo .png" class="imgh">
+    <img src="Imagens/localização.png" class="imgh2">
+    <a href=completarpedido.html><button class="button"> <img src="Imagens/carrinho.png" style="width: 20px; height: 20px; margin-top: 2px;"> </a></button>
+    </div>
+        <!--class p para fazer refernecia ao paragráfo-->
+    <div class="container">
+        <div  class="p1">
+            <h1>Encontre um café perfeito <br> para qualquer hora do seu dia</h1> <br>
+            Com Coffee Delivery você recebe seu café onde estiver, <br>a qualquer hora
+        </div>
+        <img src="Imagens/imgindex.png" class="imgindex">
+    </div>
+        <!--div para os ícones-->
+        <div class="container">       
+            <img src="Imagens/icon1.png" class="icons1"> <p class="p-icons">Compra simples e segura</p>
+            <img src="Imagens/icon3.png" class="icons1"> <p class="p-icons">Embalagem mantém o café intacto</p> 
+        </div>
+        <div class="container">
+            <img src="Imagens/icon2.png" class="icons1"> <p class="p-icons">Entrega rápida e rastreada</p>
+            <img src="Imagens/icon4.png" class="icons1"> <p class="p-icons">O café chega fresquinho até você</p>
+        </div>
+        <!--divs para formatar as caixas dos cafés-->
+        <div class="pcafés">Nossos cafés</div>
+        <div class="container">
+            <div class="cafés"><img src="Imagens/cafés/café1.png" class="imgcafés"> 
+                <div class="cafétipo"> TRADICIONAL</div>
+                <div class="titlecafés"> Expresso Tradicional </div>
+                <div class="pcaixas"> O tradicional café feito com água<br> quente e grãos moídos</div>
+                <div class="alinhamento">
+                    <div class="simbreal">R$</div>
+                    <div class="preço">9,90</div>
+                    <div class="container2">
+                        <button id="buttonDecrement">-</button>
+                        <input type="text" value="1" disabled id="counterValue">
+                        <button id="buttonIncrement">+</button>
+                    </div>
+                    <button class="buttonbox"> <img src="Imagens/carrinhocafés.png" style="width: 15px; height: 15px; margin-top: 3px;"> </a></button>
+                </div>
+            </div>
+            
+            <div class="cafés"><img src="Imagens/cafés/café2.png" class="imgcafés">
+                <div class="cafétipo"> TRADICIONAL</div>
+                <div class="titlecafés"> Expresso Americano </div>
+                <div class="pcaixas"> Expresso diluído, menos intenso <br> que o tradicional</div>
+                <div class="alinhamento">
+                    <div class="simbreal">R$</div> 
+                    <div class="preço">9,90</div>
+                    <div class="container2">
+                        <button id="buttonDecrement">-</button>
+                        <input type="text" value="1" disabled id="counterValue">
+                        <button id="buttonIncrement">+</button>
+                    </div>
+                    <button class="buttonbox"> <img src="Imagens/carrinhocafés.png" style="width: 15px; height: 15px; margin-top: 3px;"> </a></button>
+                </div>
+            </div>
+            <div class="cafés"> <img src="Imagens/cafés/café3.png" class="imgcafés">
+                <div class="cafétipo"> TRADICIONAL</div>
+                <div class="titlecafés"> Expresso Cremoso </div>
+                <div class="pcaixas"> Café expresso tradicional com <br> espuma cremosa</div>
+                <div class="alinhamento">
+                    <div class="simbreal">R$</div>
+                    <div class="preço">9,90</div>
+                    <div class="container2">
+                        <button id="buttonDecrement">-</button>
+                        <input type="text" value="1" disabled id="counterValue">
+                        <button id="buttonIncrement">+</button>
+                    </div>
+                    <button class="buttonbox"> <img src="Imagens/carrinhocafés.png" style="width: 15px; height: 15px; margin-top: 3px;"> </a></button>
+                </div>
+            </div>
+            <div class="cafés"> <img src="Imagens/cafés/café4.png" class="imgcafés">
+                <div class="alinhamento">
+                    <div class="café2tipos"> TRADICIONAL</div>
+                    <div class="café2tipos"> GELADO</div> 
+                </div>
+                <div class="titlecafés"> Expresso Gelado </div>
+                <div class="pcaixas"> Bebida preparada com café <br> expresso e cubos de gelo</div>
+                <div class="alinhamento">
+                    <div class="simbreal">R$</div>
+                    <div class="preço">9,90</div>
+                    <div class="container2">
+                        <button id="buttonDecrement">-</button>
+                        <input type="text" value="1" disabled id="counterValue">
+                        <button id="buttonIncrement">+</button>
+                    </div>
+                    <button class="buttonbox"> <img src="Imagens/carrinhocafés.png" style="width: 15px; height: 15px; margin-top: 3px;"> </a></button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="cafés"><img src="Imagens/cafés/café5.png" class="imgcafés">
+                <div class="alinhamento">
+                    <div class="café2tipos"> TRADICIONAL</div>
+                    <div class="café2tipos"> COM LEITE </div>
+                </div>
+                <div class="titlecafés"> Café com Leite </div>
+                <div class="pcaixas"> Meio a meio de expresso <br> tradicional com leite vaporizado</div>
+                <div class="alinhamento">
+                    <div class="simbreal">R$</div>
+                    <div class="preço">9,90</div>
+                    <div class="container2">
+                        <button id="buttonDecrement">-</button>
+                        <input type="text" value="1" disabled id="counterValue">
+                        <button id="buttonIncrement">+</button>
+                    </div>
+                    <button class="buttonbox"> <img src="Imagens/carrinhocafés.png" style="width: 15px; height: 15px; margin-top: 3px;"> </a></button>
+                </div>
+            </div>
+            <div class="cafés"><img src="Imagens/cafés/café6.png" class="imgcafés">
+                <div class="alinhamento">
+                    <div class="café2tipos"> TRADICIONAL</div>
+                    <div class="café2tipos"> COM LEITE </div>
+                </div>
+                <div class="titlecafés"> Latte </div>
+                <div class="pcaixas"> Uma dose de café expresso com o <br> dobro de leite e espuma cremosa </div>
+                <div class="alinhamento">
+                    <div class="simbreal">R$</div>
+                    <div class="preço">9,90</div>
+                    <div class="container2">
+                        <button id="buttonDecrement">-</button>
+                        <input type="text" value="1" disabled id="counterValue">
+                        <button id="buttonIncrement">+</button>
+                    </div>
+                    <button class="buttonbox"> <img src="Imagens/carrinhocafés.png" style="width: 15px; height: 15px; margin-top: 3px;"> </a></button>
+                </div>
+            </div>
+            <div class="cafés"><img src="Imagens/cafés/café7.png" class="imgcafés">
+                <div class="alinhamento">
+                    <div class="café2tipos"> TRADICIONAL</div>
+                    <div class="café2tipos"> COM LEITE </div>
+                </div>
+                <div class="titlecafés"> Capuccino </div>
+                <div class="pcaixas"> Bebida com canela feita de doses <br> iguais, leite e espuma</div>
+                <div class="alinhamento">
+                    <div class="simbreal">R$</div>
+                    <div class="preço">9,90</div>
+                    <div class="container2">
+                        <button id="buttonDecrement">-</button>
+                        <input type="text" value="1" disabled id="counterValue">
+                        <button id="buttonIncrement">+</button>
+                    </div>
+                    <button class="buttonbox"> <img src="Imagens/carrinhocafés.png" style="width: 15px; height: 15px; margin-top: 3px;"> </a></button>
+                </div>
+            </div>
+            <div class="cafés"><img src="Imagens/cafés/café8.png" class="imgcafés">
+                <div class="alinhamento">
+                    <div class="café2tipos"> TRADICIONAL</div>
+                    <div class="café2tipos"> COM LEITE </div>
+                </div>
+                <div class="titlecafés"> Macchiato </div>
+                <div class="pcaixas">  Café expresso misturado com um <br> pouco de leite quente e espuma </div>
+                <div class="alinhamento">
+                    <div class="simbreal">R$</div>
+                    <div class="preço">9,90</div>
+                    <div class="container2">
+                        <button id="buttonDecrement">-</button>
+                        <input type="text" value="1" disabled id="counterValue">
+                        <button id="buttonIncrement">+</button>
+                    </div>
+                    <button class="buttonbox"> <img src="Imagens/carrinhocafés.png" style="width: 15px; height: 15px; margin-top: 3px;"> </a></button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="cafés"><img src="Imagens/cafés/café9.png" class="imgcafés">
+                <div class="alinhamento">
+                    <div class="café2tipos"> TRADICIONAL</div>
+                    <div class="café2tipos"> COM LEITE </div>
+                </div>
+                <div class="titlecafés"> Mocaccino </div>
+                <div class="pcaixas">  Café expresso com calda de <br> chocolate, pouco leite e espuma </div>
+                <div class="alinhamento">
+                    <div class="simbreal">R$</div>
+                    <div class="preço">9,90</div>
+                    <div class="container2">
+                        <button id="buttonDecrement">-</button>
+                        <input type="text" value="1" disabled id="counterValue">
+                        <button id="buttonIncrement">+</button>
+                    </div>
+                    <button class="buttonbox"> <img src="Imagens/carrinhocafés.png" style="width: 15px; height: 15px; margin-top: 3px;"> </a></button>
+                </div>
+            </div>
+            <div class="cafés"><img src="Imagens/cafés/café10.png" class="imgcafés">
+                <div class="alinhamento">
+                    <div class="café2tipos"> ESPECIAL </div>
+                    <div class="café2tipos"> COM LEITE </div>
+                </div>
+                <div class="titlecafés"> Chocolate Quente </div>
+                <div class="pcaixas">  Bebida feita com chocolate <br> dissolvido no leite quente e café </div>
+                <div class="alinhamento">
+                    <div class="simbreal">R$</div>
+                    <div class="preço">9,90</div>
+                    <div class="container2">
+                        <button id="buttonDecrement">-</button>
+                        <input type="text" value="1" disabled id="counterValue">
+                        <button id="buttonIncrement">+</button>
+                    </div>
+                    <button class="buttonbox"> <img src="Imagens/carrinhocafés.png" style="width: 15px; height: 15px; margin-top: 3px;"> </a></button>
+                </div>
+            </div>
+            <div class="cafés"><img src="Imagens/cafés/café11.png" class="imgcafés">
+                <div class="alinhamento">
+                    <div class="café3tipos"> TRADICIONAL</div>
+                    <div class="café3tipos"> ALCOÓLICO </div>
+                    <div class="café3tipos"> GELADO</div>
+                </div>
+                <div class="titlecafés"> Cubano </div>
+                <div class="pcaixas"> Drink Gelado de café expresso <br> com rum, creme de leite e hortelã  </div>
+                <div class="alinhamento">
+                    <div class="simbreal">R$</div>
+                    <div class="preço">9,90</div>
+                    <div class="container2">
+                        <button id="buttonDecrement">-</button>
+                        <input type="text" value="1" disabled id="counterValue">
+                        <button id="buttonIncrement">+</button>
+                    </div>
+                    <button class="buttonbox"> <img src="Imagens/carrinhocafés.png" style="width: 15px; height: 15px; margin-top: 3px;"> </a></button>
+                </div>
+            </div>
+            <div class="cafés"><img src="Imagens/cafés/café12.png" class="imgcafés">
+                <div class="cafétipo"> ESPECIAL</div>
+                <div class="titlecafés"> Havaiano </div>
+                <div class="pcaixas">  Bebida adocicada preparada com <br> café e leite de coco</div>
+                <div class="alinhamento">
+                    <div class="simbreal">R$</div>
+                    <div class="preço">9,90</div>
+                    <div class="container2">
+                        <button id="buttonDecrement">-</button>
+                        <input type="text" value="1" disabled id="counterValue">
+                        <button id="buttonIncrement">+</button>
+                    </div>
+                    <button class="buttonbox"> <img src="Imagens/carrinhocafés.png" style="width: 15px; height: 15px; margin-top: 3px;"> </a></button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="cafés"><img src="Imagens/cafés/café13.png" class="imgcafés">
+                <div class="cafétipo"> ESPECIAL</div>
+                <div class="titlecafés"> Árabe </div>
+                <div class="pcaixas"> Bebida preparada com grãos de <br> café árabe e especiarias  </div>
+                <div class="alinhamento">
+                    <div class="simbreal">R$</div>
+                    <div class="preço">9,90</div>
+                    <div class="container2">
+                        <button id="buttonDecrement">-</button>
+                        <input type="text" value="1" disabled id="counterValue">
+                        <button id="buttonIncrement">+</button>
+                    </div>
+                    <button class="buttonbox"> <img src="Imagens/carrinhocafés.png" style="width: 15px; height: 15px; margin-top: 3px;"> </a></button>
+                </div>
+            </div>
+            <div class="cafés"><img src="Imagens/cafés/café14.png" class="imgcafés">
+                <div class="alinhamento">
+                    <div class="café2tipos"> ESPECIAL </div>
+                    <div class="café2tipos"> ALCOÓLICO </div>
+                </div>
+                <div class="titlecafés"> Irlandês </div>
+                <div class="pcaixas">  Bebida a base de café, uísque <br> irlandês, açúcar e chantilly</div>
+                <div class="alinhamento">
+                    <div class="simbreal">R$</div>
+                    <div class="preço">9,90</div>
+                    <div class="container2">
+                        <button id="buttonDecrement">-</button>
+                        <input type="text" value="1" disabled id="counterValue">
+                        <button id="buttonIncrement">+</button>
+                    </div>
+                    <button class="buttonbox"> <img src="Imagens/carrinhocafés.png" style="width: 15px; height: 15px; margin-top: 3px;"> </a></button>
+                </div>
+            </div>
+        </div>
+<script type="text/javascript" src="Java Script/contador.js"></script>
+</body>
+</html>

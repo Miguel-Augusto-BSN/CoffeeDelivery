@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Encontre um café perfeito para qualquer hora do dia!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Coffee Delivery</title>
+    <link href="CSS/completarpedido.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Imagens/logoicon.png">
+</head>
+<body>
+    <!--cabeçalho-->
+    <div id="menu">
+    <img src="Imagens/logo .png" class="imgh">
+    <img src="Imagens/localização.png" class="imgh2">
+    <a href=completarpedido.html><button class="button1"> <img src="Imagens/carrinho.png" style="width: 20px; height: 20px; margin-top: 2px;"> </a></button>
+    </div>
+
+    <div class="p1"> Complete seu pedido </div>   
+    <div class="container">
+        <div class="bloco1"> 
+            <div class="alinhamento">
+                <img src="Imagens/ponteiro.png" class="ponteiro"> 
+                <div class="p2"> Endereço de Entrega <br> <h6 style="font-family: 'Arial'; font-size: 12px;">Informe o endereço onde deseja receber seu pedido</h6>
+                </div>
+            </div>
+                <form class="form" name="CEP">
+                    <input  class="input1" type="text"  placeholder="CEP" size="35" maxlength="9"/>                
+                <form class="form" name="Rua">
+                    <input class="input1" type="text"  placeholder="Rua" size="80" maxlength="50"/>                
+                <form class="form" name="Número">
+                    <input class="input1" type="text"  placeholder="Número" size="35" maxlength="50"/>                
+                <form class="form" name="Complemento">
+                    <input class="input1" type=""  placeholder="Complemento 
+                    
+                    Opicional"  size="39" maxlength="10"/>                 
+                <form class="form" name="Bairro">
+                    <input class="input1" type="text"  placeholder="Bairro" size="35" maxlength="100"/>                
+                <form class="form" name="Cidade">
+                    <input class="input1" type=""  placeholder="Cidade"  size="30" maxlength="100" />  
+                <form class="form" name="UF">
+                    <input class="input1" type="text"  placeholder="UF" size="3" style="text-align: center;" maxlength="2" value="RS"/>                
+                </form>
+            </div>
+            <div class="p3"> Cafés selecionados </div>
+                <div class="bloco3"> 
+                    <div class="container">
+                        <img src="Imagens/cafés/café1.png" class="imgconfirmação">
+                        <div class="textcafé"> Expresso Tradicional </div>
+                        <div class="preço">R$ 9,90</div>
+                    </div>
+                    <div class="container">
+                    <div class="container2">
+                        <button id="buttonDecrement">-</button>
+                        <input class="input" type="text" value="1" disabled id="counterValue">
+                        <button id="buttonIncrement">+</button>
+                    </div>
+                    <button class="button3"><img src="Imagens/bntremover.png" class="imgbutton2"/> REMOVER</button>
+                    </div>
+                    <hr style="margin-left: 10%; margin-right: 10%; margin-top: 2%;">
+                    <div class="container">
+                        <img src="Imagens/cafés/café6.png" class="imgconfirmação">
+                        <div class="textcafé"> Latte </div>
+                        <div class="preço2">R$ 19,80</div>
+                    </div>
+                    <div class="container">
+                    <div class="container2">
+                        <button id="buttonDecrement">-</button>
+                        <input class="input" type="text" value="1" disabled id="counterValue">
+                        <button id="buttonIncrement">+</button>
+                    </div>
+                    <button class="button3"><img src="Imagens/bntremover.png" class="imgbutton2"/> REMOVER</button>
+                    </div>
+                    <hr style="margin-left: 10%; margin-right: 10%; margin-top: 2%;">
+                    <div class="container">
+                        <div class="subtotal"> Total de itens</div>
+                        <div class="subpreço"> R$ 29,70</div>
+                    </div>
+                    <div class="container">
+                        <div class="subtotal"> Entrega</div>
+                        <div class="subpreço2"> R$ 3,50</div>
+                    </div>
+                    <div class="container">
+                        <div class="total"> Entrega</div>
+                        <div class="totalpreço"> R$ 33,20</div>
+                    </div>
+                    <a href="confirmaçãopedido.html"><button class="buttonconfirmar"> CONFIRMAR PEDIDO</button></a>
+                </div>
+            
+    </div>   
+    <div class="bloco2">
+        <div class="alinhamento">
+            <img src="Imagens/Cifrão.png" class="cifrão">
+            <div class="p2"> Pagamento <br> <h6 style="font-family: 'Arial'; font-size: 12px;"> O pagamento é feito na entrega. Escolhaa forma que deseja pagar </h6>
+            </div>
+        </div>
+        <button class="button2"><img src="Imagens/cartaodecredito.png" class="imgbutton"/> CARTÃO DE CRÉDITO</button>
+        <button class="button2"><img src="Imagens/cartaodedebito.png" class="imgbutton"/> CARTÃO DE DÉBITO</button>
+        <button class="button2"><img src="Imagens/dinheiro.png" class="imgbutton"/> DINHEIRO</button>
+    </div>
+<script type="text/javascript" src="Java Script/contador.js"></script>
+</body>
+</html>
